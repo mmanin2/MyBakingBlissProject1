@@ -366,7 +366,7 @@ footer {
 }
 
 /*THESE ARE STYLES FOR SMALLER SCREENS*/
-@media (max-width: 828px) {
+@media (max-width: 900px) {
   article {
     display:block
   }
