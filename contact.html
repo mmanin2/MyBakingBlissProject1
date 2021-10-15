@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="banner-container">
+            <ul class="banner">
+              <li class="banner-links"><a href="./index.html">Home</a></li>
+              <li class="banner-links"><a href="./recipes.html">Recipes</a></li>
+              <img id="logo" src="assets/MBB_logo_updated_2020_480x150.png" alt="My Baking Bliss">
+              <li class="banner-links"><a href="./gallery.html">Gallery</a></li>
+              <li class="banner-links"><a href="./contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+      </header>
+    
+      <h1 class="recipesGreeting">Contact Me!</h1>
+      <p class="galleryGreeting">Thanks for taking the time to visit my page! If you have any Comments or Questions about a recipe or anything baking in general, please fill out the form below and I will respond as soon as possible!</p>
+    
+<form id="form" action="#" method="POST">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    
+    <label for="submit">Email Address:</label><br>
+    <input type="email" name="email" required><br><br>
+    
+    <label>Favorite Season for Baking:</label><br>
+    <input type="radio" id="summer" name="fav_season" value="Summer">
+     <label for="summer">Summer</label>
+     <br><input type="radio" id="winter" name="fav_season" value="Winter">
+    <label for="winter">Winter</label>
+    <br><input type="radio" id="fall" name="fav_season" value="Fall" required>
+    <label for="fall">Fall</label>
+    <br><input type="radio" id="spring" name="fav_season" value="Spring">
+    <label for="spring">Spring</label><br><br>
+    
+    <label for="comments">Comments or Suggestions:</label><br>
+    <textarea name="comments" placeholder="Share your thoughts here!" cols="30" rows="10"></textarea><br>
+    <input type="submit" id="submit" value="Submit" required>
+</form>
+
+      <!-- Footer Nav Bar --> 
+<footer>
+    <nav class="footer-top">
+          <ul class="options">
+            <li class="footer-links"><a href="./index.html">Home</a></li>
+            <li class="footer-links"><a href="./recipes.html">Recipes</a></li>
+            <li class="footer-links"><a href="./gallery.html">Gallery</a></li>
+            <li class="footer-links"><a href="./contact.html">Contact Me</a></li>
+          </ul>
+            <div class="footer-logo">
+              <a href="#"><img class="smlogo" src="./assets/instagram-square-brands.svg" alt="Instagram"></a>
+              <a href="#"><img class="smlogo" src="./assets/pinterest-square-brands.svg" alt="Pinterest"></a>
+          </div>
+      </nav>
+      <div class="copyright">Copyright &copy; My Baking Bliss</div>
+    </footer>
+    
+</body>
+</html>
