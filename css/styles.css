@@ -366,7 +366,7 @@ footer {
 }
 
 /*THESE ARE STYLES FOR SMALLER SCREENS*/
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   article {
     display:block
   }
@@ -382,7 +382,7 @@ footer {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 320px) {
   .portrait {
     width: 50%;
   }
